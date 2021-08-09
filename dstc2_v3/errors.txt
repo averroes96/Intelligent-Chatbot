@@ -1,0 +1,4 @@
+line 427:   category instead of type
+inform_colors => inform_colors+offer_name
+correct inform_type+offer_name messages
+correct after asking about something

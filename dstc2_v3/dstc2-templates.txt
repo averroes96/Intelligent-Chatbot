@@ -1,0 +1,89 @@
+api_call	api_call type=\"#type\" category=\"#category\" pricerange=\"#pricerange\" heel=\"#heels\""	api_call area="#area" food="#food" pricerange="#pricerange"
+bye	Je vous en prie!    Vous êtes les bienvenus!    Bonne journée
+canthear	Sorry, I can't hear you.	
+canthelp_area	I'm sorry but there is no #area american restaurant in the #area of town.	
+canthelp_area_food	Sorry there is no #food restaurant in the #area of town.	
+canthelp_area_food_pricerange	Sorry there is no #pricerange restaurant in the #area of town serving #food food.	
+canthelp_area_pricerange	Sorry there is no #pricerange restaurant in the #area of town serving #area american food.	
+canthelp_food	I am sorry but there is no #food restaurant that matches your request.	
+canthelp_food_pricerange	Sorry there is no #food restaurant in the #pricerange price range.	
+canthelp_type_category_heel  Désolé, il n'y a pas de #type pour #category avec #heel talon
+canthelp_type_category  Je suis désolé, il n'y a pas de #type pour #category pour le moment.
+confirm-domain	Vous cherchez des chaussures, n'est-ce pas ?
+expl-conf_category	Did you say you are looking for #category shoes?	Ok, a shoe of any category is that right?
+expl-conf_type	Vous cherchez #type c'est ça ?	Ok, n'importe quel type est-ce vrai?
+expl-conf_pricerange	Je confirme, vous cherchez des chaussures dans la gamme de prix #pricerange non ?	Je confirme, Vous cherchez une chaussure et vous ne vous souciez pas de la gamme de prix, n'est-ce pas ?
+expl-conf_category	Je confirme, vous cherchez des chaussures pour #category ?
+expl-conf_category_type Je confirme, vous cherchez #type pour #category non ?
+expl-conf_heel Je confirme, vous cherchez des modèles avec #heel talon ?
+expl-conf_category Je confirme, vous cherchez des chaussure pour #category non ?
+impl-conf_type+impl-conf_category+request_pricerange    Il existe des chaussures #type pour #category, quelle gamme de prix peut vous convenir ?
+impl-conf_pricerange+request_type	Il existe des chaussures dans la gamme de prix #pricerange, quel type de chaussures souhaitez-vous ?	
+impl-conf_food+impl-conf_pricerange+request_area	There are  restaurants serving #food in the #pricerange price range. What area would you like?	
+impl-conf_food+request_area	There are  restaurants serving #food food. What area do you want?	
+inform_addr+inform_food+offer_name	#name is on #addr and serves tasty #food food.	
+inform_addr+inform_phone+inform_pricerange+offer_name	#name is on #addr. Its phone number is #phone, and it is in the #pricerange pricerange.	
+inform_addr+inform_phone+offer_name	The phone number of #name is #phone and it is on #addr.	
+inform_addr+inform_postcode+offer_name	#name is on #addr, #postcode.	
+inform_addr+inform_pricerange+offer_name	#name is on #addr, and it is in the #pricerange price range.	
+inform_addr+offer_name	Sure, #name is on #addr.	
+inform_area+inform_food+inform_pricerange+offer_name	#name is a great restaurant serving #pricerange #food food in the #area of town.	
+inform_area+inform_food+offer_name	#name is a nice place in the #area of town serving tasty #food food.	
+inform_area+inform_phone+offer_name	The phone number of #name is #phone and it is in the #area part of town.	
+inform_area+inform_postcode+offer_name	#name is in the #area, at #postcode.	
+inform_area+inform_pricerange+offer_name	#name is a nice place in the #area of town and the prices are #pricerange.	
+inform_area+offer_name	#name is in the #area part of town.	
+inform_food+inform_pricerange+offer_name	#name serves #food food in the #pricerange price range.	
+inform_food+offer_name	#name serves #food food.	
+inform_phone+inform_postcode+offer_name	The phone number of #name is #phone and its postcode is #postcode.	
+inform_phone+inform_pricerange+offer_name	The phone number of #name is #phone and it is in the #pricerange price range.	
+inform_phone+offer_name	The phone number of #name is #phone.	The phone number of #name is dontcare.
+inform_postcode+inform_pricerange+offer_name	#name is in the #pricerange price range, and their post code is #postcode.	
+inform_postcode+offer_name	The post code of #name is #postcode.	
+inform_pricerange+offer_name	The price range at #name is #pricerange.	
+offer_name	#name is a great restaurant.	
+repeat	Désolé, je suis un peu confus, s'il vous plaît dites-moi à nouveau ce que vous recherchez.	Je ne vous ai pas compris, pouvez-vous répéter s'il vous plaît !
+reqmore	Puis-je vous aider pour autre chose?    Si vous avez quoi que ce soit d'autre à l'esprit ne hésitez pas à me demander.
+request_area	What part of town do you have in mind?	
+request_food	What kind of food would you like?	
+request_pricerange	Souhaitez-vous quelque chose dans la gamme de prix bon marché, modéré ou chère ?    Quelle gamme de prix vous intéresse ?
+select_area	Sorry would you like something in the #area or in the #area.	Sorry would you like the #area of town or you dont care.
+select_type	Désolé, voulez-vous #type ou #type comme modèles de chaussures ?	Désolé, voulez-vous des modèles #type ou vous vous en fichez ?
+select_heel	Désolé, Voulez-vous un talon #heel ou #heel ?   Désolé, voulez-vous des modèles avec #heel talon ou vous vous en fichez ?
+select_pricerange	Désolé, voulez-vous quelque chose dans la gamme de prix #pricerange ou dans la gamme de prix #pricerange.	Désolé, voulez-vous quelque chose dans la gamme de prix #pricerange ou vous vous en fichez ?
+welcomemsg	Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?	
+inform_name Je m'appelle Hash
+inform_skills   Je peux répondre aux questions fréquemment posées et connexes à l'entreprise, je peux également vous aider à trouver ce que vous cherchez
+offer_name+inform_category+inform_type+offer_sizes+offer_colors    #name est une #type pour #category aux couleurs #colors et aux tailles comprises entre #sizes
+request_price_type  Prix de détail ou de gros ?
+inform_retail_price+offer_name  Bien sûr, le prix de #name est de #retail_price #name n'est qu'à #price.    #name coûts #price
+request_category    Pour hommes, garçons, femmes ou fille ?
+request_heel    Quel genre de talon vous cherchez ?
+request_type    Quel genre de chaussures avez-vous en tête ?
+offer_name	Peut-être que #name peut vous intéresser
+offer_name+inform_retail_price  #name n'est qu'à #price.  Vérifiez #name, cela coûte #price.    #name coûte #retail_price
+inform_colors   Il existe en #colors.   Elle existe en #colors.
+inform_type+inform_pricerange+inform_heel+offer_name    #name est une #type #pricerange avec #heel.
+inform_type+inform_category+inform_heel+offer_name  #name est une jolie chaussure #type pour #category avec un #heel talon.
+inform_sizes+inform_colors+offer_name   Les pointures disponibles pour #name sont dans la gamme #sizes et elle existe en #colors.
+inform_type+inform_category+offer_name  Peut-être que vous aimez #name, c'est une chaussure #type pour #category.
+inform_type+inform_category+inform_pricerange+offer_name	Peut-être que vous aimez #name, c'est une chaussure #type pour #category dans la gamme de prix #pricerange.
+inform_pricerange+offer_retail_price+offer_name    La gamme de prix de #name est #pricerange et c'est #retail_price.
+inform_sizes+offer_name Les pointures disponibles pour #name sont dans la gamme #sizes
+inform_sizes    Les pointures disponibles sont dans la gamme #sizes.
+inform_category+inform_pricerange+offer_name    #name est une chaussure pour #category #pricerange. Peut-être que vous aimez #name, une chaussure #pricerange pour #category.
+inform_type+inform_pricerange+offer_name    #name est une chaussure #type dans la gamme de prix #pricerange
+inform_retail_price+inform_sizes+offer_name	#name est #retail_price et Les pointures disponibles sont dans la gamme de #sizes.	Bien sûr, c'est #retail_price et des tailles comprises entre #sizes.
+inform_retail_price+inform_colors	Bien sûr, c'est #retail_price et #colors comme couleurs.
+inform_type+offer_name	#name est une chaussure #type qui peut vous intéresser.
+inform_types	Nous vendons des sandales, classiques, mocassins, sabots, baskets, ballerines, des chaussures soirée, sandales soirée, sabots soirée, ballerines soirée, etc.
+inform_category+offer_name	#name est une belle chaussure pour #category
+inform_retail_price+inform_colors+inform_sizes+offer_name   #name est de 1800 DA, elle a comme couleurs #colors, tandis que Les pointures sont dans la gamme #sizes.
+inform_retail_price+inform_colors+offer_name    Bien sûr, #name est #retail_price et elle a comme couleurs #colors.
+inform_type+inform_category+inform_pricerange+inform_heel+offer_name  #name, une chaussure #type pour #category dans la gamme de prix #pricerange ayant un talon #heel 
+confirm_type    Vous cherchez une #type, n'est-ce pas ? Vous cherchez un #type, n'est-ce pas ?
+canthelp_type_pricerange    Désolé, il n'y a pas de chaussures #type dans la gamme de prix #pricerange.
+canthelp_type_category_pricerange    Désolé, il n'y a pas de #type pour #category dans la gamme de prix #pricerange     Malheureusement, aucun #type pour #category dans la gamme de prix #pricerange n'a été trouvé
+canthelp_type_heel_category_pricerange    Désolé, il n'y a pas de #type avec talon #heel pour #category dans la gamme de prix #pricerange
+canthelp_type_category	Désolé, il n'y a pas de #type pour #category en ce moment
+canthelp_type   Désolé, il n'y a pas de chaussures #type pour le moment.
