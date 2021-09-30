@@ -1,0 +1,148 @@
+{
+  "api_call": [
+    "type",
+    "category",
+    "pricerange",
+    "heel"
+  ],
+  "canthelp_type": [
+    "type"
+  ],
+  "canthelp_type_category": [
+    "type",
+    "category"
+  ],
+  "canthelp_type_heel_category_pricerange": [
+    "type",
+    "heel",
+    "category",
+    "pricerange"
+  ],
+  "canthelp_type_category_pricerange": [
+    "type",
+    "category",
+    "pricerange"
+  ],
+  "canthelp_type_pricerange": [
+    "type",
+    "pricerange"
+  ],
+  "canthelp_type_category_heel": [
+    "type",
+    "category",
+    "heel"
+  ],
+  "canthelp_category_pricerange": [
+    "category",
+    "pricerange"
+  ],
+  "canthelp_type_heel": [
+    "type",
+    "heel"
+  ],  
+  "expl-conf_type": [
+    "type"
+  ],
+  "expl-conf_type_pricerange": [
+    "type",
+    "pricerange"
+  ],
+  "expl-conf_pricerange": [
+    "pricerange"
+  ],
+  "expl-conf_category": [
+    "category"
+  ],
+  "expl-conf_heel": [
+    "heel"
+  ],
+  "expl-conf_category_type": [
+    "category",
+    "type"
+  ],
+  "expl-conf_category_pricerange": [
+    "category",
+    "pricerange"
+  ],
+  "impl-conf_pricerange": [
+    "pricerange"
+  ],
+  "request_type": [
+    "pricerange"
+  ],
+  "impl-conf_type": [
+    "category",
+    "type"
+  ],
+  "request_pricerange": [
+    "type",
+    "category"
+  ],
+  "impl-conf_category": [
+    "category",
+    "type"
+  ],
+  "inform_category": [
+    "name",
+    "category",
+    "type",
+    "pricerange",
+    "heel"
+  ],
+  "inform_type": [
+    "category",
+    "name",
+    "heel",
+    "pricerange",
+    "type"
+  ],
+  "offer_name": [
+    "type",
+    "category",
+    "retail_price",
+    "sizes",
+    "pricerange",
+    "name",
+    "colors",
+    "heel"
+  ],
+  "inform_sizes": [
+    "retail_price",
+    "colors",
+    "name",
+    "sizes"
+  ],
+  "inform_pricerange": [
+    "category",
+    "name",
+    "type",
+    "heel",
+    "pricerange",
+    "retail_price"
+  ],
+  "inform_colors": [
+    "name",
+    "sizes",
+    "colors",
+    "retail_price"
+  ],
+  "inform_retail_price": [
+    "name",
+    "sizes",
+    "pricerange",
+    "retail_price",
+    "colors"
+  ],
+  "select_category": [
+    "category"
+  ],
+  "select_type": [
+    "type"
+  ],
+  "select_pricerange": [
+    "pricerange"
+  ],
+  "select_heel": [
+    "heel"
+  ]
+}

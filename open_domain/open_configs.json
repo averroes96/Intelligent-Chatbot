@@ -1,0 +1,9 @@
+{
+    "DATA_DESCRIPTION": "DATASET DESCRIPTION HERE",
+    "DATA_NAME": "chitchat-dataset",
+    "DATA_PATH": "../data/chitchat_dataset",
+    "ENCODER_LENGTH": 150,
+    "DECODER_LENGTH": 150,
+    "BERT_MODEL": "../models/camembert/",
+    "SAVE_PATH": "./model"
+}

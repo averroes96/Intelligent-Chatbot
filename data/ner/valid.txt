@@ -1,0 +1,845 @@
+sil	O
+
+je	O
+cherche	O
+des	O
+ballerines	B-type
+pour	O
+femmes	B-category
+
+Mmmm	O
+jaime	O
+pas	O
+celui	O
+ci,	O
+autre	O
+?	O
+
+oui	O
+ça	O
+a	O
+l'air	O
+bien	O
+
+combien	O
+coute	O
+celui	O
+ci	O
+
+c	O
+bien	O
+
+quelles	O
+sont	O
+les	O
+tailles	O
+disponibles	O
+
+dcr	O
+merci	O
+bcp	O
+a	O
+bientot	O
+
+je	O
+ne	O
+sais	O
+pas	O
+
+des	O
+skichers	B-type
+a	O
+prix	O
+modéré	B-pricerange
+
+mada	O
+bik	O
+
+oui	O
+skechers	B-type
+
+oui	O
+c'est	O
+ca	O
+
+c'est	O
+pour	O
+les	O
+filles	B-category
+non	O
+?	O
+
+mais	O
+je	O
+veux	O
+des	O
+skechers	B-type
+pour	O
+les	O
+mecs	B-category
+
+les	O
+hommes	B-category
+
+autre	O
+chose	O
+
+je	O
+n'aime	O
+pas	O
+celui	O
+ci	O
+
+Aaahh	O
+
+je	O
+ne	O
+suis	O
+pas	O
+sur	O
+que	O
+tu	O
+puisses	O
+
+comme	O
+c'est	O
+intelligent	O
+!	O
+
+oui	O
+
+c	O
+combien	O
+?	O
+
+wow	O
+
+bye	O
+
+je	O
+cherche	O
+des	O
+chaussures	O
+pour	O
+fille	B-category
+dans	O
+la	O
+gamme	O
+de	O
+prix	O
+chère	B-pricerange
+
+toutes	B-this
+sortes	I-this
+
+j'affirme	O
+
+pas	O
+de	O
+chance	O
+je	O
+pense	O
+
+existe	O
+til	O
+des	O
+chaussures	O
+de	O
+bonne	O
+qualité	O
+dans	O
+la	O
+gamme	O
+de	O
+prix	O
+modéré	B-pricerange
+?	O
+
+oui	O
+c	O
+inevitable	O
+
+je	B-this
+ne	I-this
+sais	I-his
+pas,	I-this
+pas	O
+un	O
+en	O
+particulier	O
+
+un	O
+autre	O
+sil	O
+vous	O
+plait	O
+
+oui	O
+
+okay	O
+je	O
+veux	O
+les	O
+couleurs	O
+et	O
+les	O
+tailles	O
+de	O
+celui	O
+ci	O
+?	O
+
+je	O
+vais	O
+acheter	O
+un,	O
+c'est	O
+combien	O
+?	O
+
+merci	O
+bcp	O
+
+non	O
+c'est	O
+bon	O
+
+cherche	O
+des	O
+chaussures	O
+pas	B-pricerange
+chère	I-pricerange
+pour	O
+garçon	B-category
+
+tout	B-this
+
+prix	O
+svp	O
+?	O
+
+et	O
+les	O
+couleurs	O
+dispo	O
+
+merci	O
+au	O
+revoir	O
+
+je	O
+cherche	O
+des	O
+chaussures	O
+classiques	B-type
+pour	O
+une	O
+vieille	O
+femme	B-category
+
+quel	O
+est	O
+le	O
+prix	O
+
+merci	O
+adieu	O
+
+oui	O
+pouvez	O
+vous	O
+me	O
+suggérer	O
+une	O
+basket	B-type
+de	O
+n'importe	B-pricerange
+quelle	I-pricerange
+gamme	O
+de	O
+prix	O
+
+c'est	O
+pour	O
+les	O
+hommes	B-category
+?	O
+
+mais	O
+non	O
+je	O
+cherche	O
+des	O
+baskets	B-type
+pour	O
+les	O
+mecs	B-category
+
+oui	O
+exactement	O
+
+autre	O
+que	O
+celui	O
+ci	O
+
+Humm	O
+pas	O
+convaincu	O
+que	O
+je	O
+l'aime	O
+
+d'autres	O
+alternatives	O
+?	O
+
+bah	O
+oui	O
+!	O
+
+ouiii	O
+oui	O
+
+ok	O
+je	O
+vais	O
+prendre	O
+celui	O
+ci	O
+
+c'est	O
+combien	O
+?	O
+
+ça	O
+explique	O
+beaucoup	O
+de	O
+choses	O
+lol	O
+
+rien	O
+
+oui	O
+je	O
+peux	O
+avoir	O
+les	O
+tailles	O
+?	O
+
+les	O
+couleurs	O
+aussi	O
+
+merci	O
+bcp	O
+
+non	O
+bye	O
+
+je	O
+ne	O
+parle	O
+pas	O
+français	O
+
+chaussures	O
+
+je	B-this
+ne	I-this
+sais	I-this
+pas	I-this
+
+non	O
+
+adidas	b-type
+
+non	O
+
+na	B-this
+pas	I-this
+d'importance	I-this
+
+c'est	O
+jolie	O
+
+no	O
+c	O
+pas	O
+la	O
+peine	O
+
+je	O
+cherche	O
+des	O
+chaussure	O
+classik	B-type
+pour	O
+les	O
+garçon	B-category
+
+ih	O
+
+oui	O
+
+et	O
+c'est	O
+combien	O
+?	O
+
+c	O
+chèr	B-pricerange
+pour	O
+moi	O
+
+non	O
+pas	O
+du	O
+tout	O
+!	O
+jamais	O
+
+je	O
+cherche	O
+des	O
+chaussures	O
+moins	B-pricerange
+chères	I-pricerange
+
+ya	O
+pas	O
+des	O
+autres	O
+model	O
+?	O
+
+a	O
+prix	O
+raisonable	B-pricerange
+peut	O
+etre	O
+!	O
+
+oui	O
+c	O
+ça	O
+modéré	B-pricerange
+
+combien	O
+coûte	O
+et	O
+quelles	O
+sont	O
+les	O
+pointures	O
+disponibles?	O
+
+merci	O
+au	O
+revoir	O
+
+j'ai	O
+besoin	O
+d'1	O
+mocassin	B-type
+compensé	B-heel
+
+et	O
+d'un	O
+talon	O
+plat	B-heel
+?	O
+
+plat	B-heel
+je	O
+confirme	O
+
+oui	O
+putain	O
+!	O
+
+pour	O
+les	O
+meufs	B-category
+
+prix	O
+
+pointures	O
+dispo	O
+
+et	O
+couleurs	O
+?	O
+
+merci	O
+bye	O
+
+des	O
+chaussures	O
+a	O
+prix	O
+modéré	B-pricerange
+
+cherche	O
+pour	O
+homme	B-category
+
+exactement	O
+
+autre	O
+chose	O
+
+mocassin	B-type
+
+prix	O
+
+pointures	O
+
+couleurs	O
+
+merci	O
+adios	O
+
+cherche	O
+des	O
+chaussures	O
+pour	O
+petits	O
+fils	B-category
+a	O
+prix	O
+modéré	B-pricerange
+
+je	O
+ne	O
+veux	O
+pas	O
+de	O
+baskets	B-type
+
+non	O
+
+des	O
+sandales	B-type
+
+des	O
+sandales	B-type
+
+couleurs	O
+et	O
+tailles	O
+svp	O
+
+merci	O
+
+c'est	O
+bon	O
+
+vous	O
+avez	O
+des	O
+sabots	B-type
+soirée	I-type
+pour	O
+fillettes	B-category
+?	O
+
+long	B-heel
+talon	O
+
+long	B-heel
+talon	O
+
+kifeh	O
+
+a	O
+demi	B-heel
+talon	O
+?	O
+
+bruit	O
+
+demi	B-heel
+
+merci	O
+au	O
+revoir	O
+
+je	O
+cherche	O
+des	O
+chaussures	O
+pour	O
+les	O
+meufs	B-category
+a	O
+prix	O
+raisonable	B-pricerange
+
+uh	O
+peu	B-this
+importe	I-this
+
+avez	O
+vous	O
+quoi	O
+que	O
+ce	O
+soit	O
+d'autre	O
+
+um	O
+pourriez	O
+vous	O
+me	O
+donner	O
+son	O
+prix	O
+
+ok	O
+merci	O
+et	O
+au	O
+revoir	O
+
+bruit	O
+
+des	O
+prix	O
+modéré	B-pricerange
+
+quelconque	B-this
+
+hommes	B-category
+
+ya	O
+til	O
+autre	O
+chose	O
+
+prix	O
+
+et	O
+les	O
+pointures	O
+?	O
+
+au	O
+revoir	O
+
+bruit	O
+
+balleghina	B-type
+
+pour	O
+les	O
+filles	B-category
+
+oui	O
+
+toute	B-this
+gamme	B-this
+
+puis	O
+js	O
+obtenir	O
+les	O
+pointures	O
+et	O
+les	O
+couleurs	O
+
+sahit	O
+
+merci	O
+a	O
+bientot	O
+
+euh	O
+je	O
+cherche	O
+des	O
+mocassins	B-type
+
+garcons	B-category
+
+pas	B-this
+important	B-this
+
+c	O
+combien	O
+?	O
+
+euh	O
+c'est	O
+un	O
+peu	B-pricerange
+cher	I-pricerange
+,	O
+autre	O
+chose	O
+?	O
+
+euh	O
+moyen	B-pricerange
+
+euh	O
+prix	O
+
+c'est	O
+bon	O
+merci	O
+
+non	O
+merci	O
+
+je	O
+veux	O
+des	O
+chaussures	O
+chères	B-pricerange
+
+ce	O
+n'est	O
+pas	B-this
+grave	I-this
+
+femmes	B-category
+
+ce	O
+modèle	O
+a	O
+t-il	O
+la	O
+couleur	O
+bleue	O
+?	O
+
+existe	O
+til	O
+un	O
+modèle	O
+qui	O
+a	O
+la	O
+couleur	O
+bleue	O
+?	O
+
+dcr	O
+proposez	O
+moi	O
+un	O
+autre	O
+modèle	O
+svp	O
+
+oui	O
+
+oui	O
+mais	O
+avec	O
+une	O
+couleurs	O
+bleue	O
+
+autre	O
+chose	O
+!?	O
+
+quelles	O
+sont	O
+les	O
+couleurs	O
+disponibles	O
+?	O
+
+tres	O
+bien	O
+et	O
+c'est	O
+combien	O
+?	O
+
+enfin	O
+a	O
+bientot	O
+
+salut,	O
+je	O
+cherche	O
+une	O
+chaussure	O
+pas	B-pricerange
+cher	I-pricerange
+pour	O
+homme	B-category
+
+toux	O
+
+combien	O
+ça	O
+coûte	O
+?	O
+
+et	O
+les	O
+pointures	O
+
+merci	O
+bcp	O
+bye	O
+
+des	O
+chaussures	O
+pour	O
+filles	B-category
+
+y	O
+a-t-il	O
+autre	O
+chose	O
+
+tout	B-this
+
+rien	O
+d'autre	O
+?	O
+
+prix	O
+svp	O
+
+merci	O
+au	O
+revoir	O
+
+bonjour,	O
+je	O
+veux	O
+des	O
+baskets	B-type
+
+je	O
+veux	O
+des	O
+baskets	B-type
+pour	O
+garçon	B-category
+
+justement	O
+
+quels	O
+sont	O
+les	O
+pointures	O
+
+quelle	O
+est	O
+la	O
+fourchette	O
+de	O
+prix	O
+
+merci	O

@@ -1,0 +1,2 @@
+model_checkpoint_path: "../ner/model/model"
+all_model_checkpoint_paths: "../ner/model/model"

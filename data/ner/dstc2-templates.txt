@@ -1,0 +1,53 @@
+welcomemsg	Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?	
+request_type	Quel genre de chaussures avez-vous en tête ?	
+confirm-domain	Vous cherchez des chaussures, n'est-ce pas ?	
+request_pricerange	Souhaitez-vous quelque chose dans la gamme de prix bon marché, modéré ou chère ?	
+api_call	api_call type="\#type\" category="\#category\" pricerange="\#pricerange\" heel="\#heel\"	
+inform_type+inform_category+offer_name	Peut-être que vous aimez #name, c'est une chaussure #type pour #category.	
+request_price_type	Prix de détail ou de gros ?	
+inform_retail_price+offer_name	Bien sûr, le prix de #name est de #retail_price	
+bye	Vous êtes les bienvenus!	
+request_category	Pour hommes, garçons, femmes ou filles ?	
+inform_category+inform_pricerange+offer_name	Peut-être que vous aimez #name, une chaussure bon marché pour #category.	
+inform_type+inform_category+inform_pricerange+offer_name	Peut-être que vous aimez #name, c'est une chaussure #type pour #category dans la gamme de prix #pricerange.	
+inform_sizes+offer_name	Les pointures disponibles pour #name sont dans la gamme #sizes	
+inform_colors+offer_name	#name existe en #colors.	
+reqmore	Puis-je vous aider pour autre chose?	
+inform_type+inform_pricerange+inform_heel+offer_name	#name est une chaussure soirée #pricerange avec un talon #heel.	
+request_heel	Quel genre de talon vous cherchez ?	
+canthelp_type_category_heel	Désolé, il n'y a pas de #type pour #category avec talon #heel.	
+inform_type+inform_category+inform_heel+offer_name	#name est une jolie chaussure #type pour #category avec un talon #heel.	
+inform_sizes+inform_colors+offer_name	Les pointures disponibles pour #name sont dans la gamme #sizes et elle existe en #colors	
+inform_pricerange+offer_retail_price+offer_name	La gamme de prix de #name est #pricerange et c'est #retai_price.	
+inform_type+inform_pricerange+offer_name	#name est une chaussure #type dans la gamme de prix #pricerange	
+expl-conf_type	Vous cherchez chaussure #type c'est ça ?	
+expl-conf_type_pricerange	Permettez-moi de confirmer, vous recherchez une chaussure de #type dans la gamme de prix #pricerange, n'est-ce pas ?	
+canthelp_type_pricerange	Désolé, il n'y a pas de chaussures #type dans la gamme de prix #pricerange.	
+canthelp_type_category_pricerange	Désolé, il n'y a pas de #type pour #category dans la gamme de prix #pricerange	
+canthelp_type_heel_category_pricerange	Désolé, il n'y a pas de #type avec talon #heel pour #category dans la gamme de prix #pricerange	
+inform_type+offer_name	#name est une chaussure #type qui peut vous intéresser.	
+repeat	Désolé, je suis un peu confus, s'il vous plaît dites-moi à nouveau ce que vous recherchez.	
+inform_retail_price+inform_sizes+offer_name	#name est #retail_price et Les pointures disponibles sont dans la gamme de #sizes	
+canthelp_type_category	Je suis désolé, il n'y a pas de chaussure #type pour #category pour le moment.	
+inform_types	Nous vendons des sandales, classiques, mocassins, sabots, baskets, ballerines, des chaussures soirée, sandales soirée, sabots soirée, ballerines soirée, etc.	
+inform_retail_price+inform_colors+offer_name	Bien sûr, #name est #retai_price et #colors comme couleurs.	
+expl-conf_category_type	Je confirme, vous cherchez #type pour #category non ?	
+offer_name	Peut-être que #name peut vous intéresser	
+inform_category+offer_name	#name est une belle chaussure pour #category	
+expl-conf_pricerange	Je confirme, vous cherchez des chaussures dans la gamme de prix #pricerange non ?	Je confirme, Vous cherchez une chaussure et vous ne vous souciez pas de la gamme de prix, n'est-ce pas ?	
+expl-conf_category	Je confirme, vous cherchez des chaussure pour #category ?	
+canthelp_type	Désolé, il n'y a pas de chaussures #type pour le moment.	
+inform_retail_price+inform_colors+inform_sizes+offer_name	#name est de #retai_price, elle a comme couleurs #colors, tandis que les pointure sont dans la gamme #sizes.	
+inform_type+inform_category+inform_pricerange+inform_heel+offer_name	#name, une chaussure #type pour #category dans la gamme de prix #pricerange ayant un talon #heel	
+inform_size+offer_name	Les pointures disponibles pour #name sont dans la gamme #sizes	
+select_pricerange	Désolé, voulez-vous quelque chose dans la gamme de prix #pricerange ou vous vous en fichez ?	
+impl-conf_type+impl-conf_category+request_pricerange	Il existe des chaussures #type pour garçon, quelle gamme de prix peut vous convenir ?	
+impl-conf_pricerange+request_type	Il existe des chaussures dans la gamme de prix #pricerange, quel type de chaussures souhaitez-vous ?	
+select_type	Désolé, voulez-vous #type ou #type comme modèle de chaussures ?	
+select_heel	Désolé, voulez-vous un talon #heel ou #heel ?	
+expl-conf_heel	Je confirme, vous cherchez des modèles avec un talon #heel ?	
+select_category	Désolé, vous voulez des chaussures pour #category ou pour #category ?	
+canthelp_category_pricerange	Désolé, il n'y a pas de chaussures pour #category dans la gamme de prix #pricerange en ce moment.	
+expl-conf_category_pricerange	Je confirme, vous cherchez des chaussures pour #category dans la gamme de prix #pricerange non ?	
+canthelp_type_heel	Je suis désolé, il n'y a pas de chaussure #type avec un talon #heel pour le moment.	
+inform_type+infrom_heel+offer_name	#name est une chaussure #type à talon #heel.	

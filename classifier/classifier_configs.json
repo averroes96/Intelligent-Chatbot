@@ -1,0 +1,14 @@
+{
+    "DATA_PATH": "../data/classifier_data.csv",
+    "TARGET_LIST": ["QA", "task", "chitchat"],
+    "CHECKPOINT_PATH": "checkpoint",
+    "BEST_PATH": "best_model.pt",
+    "MAX_LEN": 256,
+    "TRAIN_BATCH_SIZE": 32,
+    "EPOCHS": 10,
+    "LEARNING_RATE": 1e-05,
+    "TASK_DATA_PATH": "../data/dstc2/",
+    "QA_DATA_PATH": "../data/QA.csv",
+    "OPEN_DATA_PATH": "../data/open_domain/chitchat_dataset.csv",
+    "BERT_PATH": "./models/camembert/"
+}

@@ -1,0 +1,1 @@
+{"hidden_size": 256, "action_size": 53, "dense_size": 128, "dropout_rate": 0.75, "l2_reg_coef": 0.0009, "attention_params": [100, 32, 100, 79, "general", false, null, true, true]}

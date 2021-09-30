@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\user\\Documents\\GitHub\\Intelligent-Chatbot\\task_oriented\\entity_extractor\\ner\\model\\model"
+all_model_checkpoint_paths: "C:\\Users\\user\\Documents\\GitHub\\Intelligent-Chatbot\\task_oriented\\entity_extractor\\ner\\model\\model"

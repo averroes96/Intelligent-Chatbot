@@ -1,0 +1,184 @@
+{"speaker": 2, "text": "Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?", "dialog_acts": [{"act": "welcomemsg", "slots": []}]}
+{"speaker": 1, "text": "je cherche des chaussure pour fillettes", "goals": {"category": "fille"}, "dialog_acts": [{"slots": [["category", "fille"]], "act": "inform"}]}
+{"speaker": 2, "text": "Je confirme, vous cherchez des chaussures pour fille ?", "dialog_acts": [{"act": "expl-conf_category", "slots": [["category", "fille"]]}]}
+{"speaker": 1, "text": "oui c'est ça",  "goals": {"category": "fille"}, "dialog_acts": [{"slots": [], "act": "affirm"}]}
+{"speaker": 2, "text": "Quel genre de chaussures avez-vous en tête ?", "dialog_acts": [{"act": "request_type", "slots": []}]}
+{"speaker": 1, "text": "des baskets", "goals": {"type": "basket", "category": "fille"}, "dialog_acts": [{"slots": [["type", "basket"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call type=\"basket\" category=\"fille\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "basket"], ["category", "fille"]]}], "db_result": {"type": "basket", "pricerange": "modéré", "category": "fille", "heel": "plat", "name": "Basket TF822", "sizes": "20/37", "colors": "rose, grise, jaune", "retail_price": "2600 DA", "wholesale_price": "1500 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Basket TF822, c'est une chaussure basket pour fille.", "dialog_acts": [{"act": "inform_type+inform_category+offer_name", "slots": [["name", "Basket TF822"], ["type", "basket"], ["category", "fille"]]}]}
+{"speaker": 1, "text": "dcr mais je veux que ce soit de marque converse", "goals": {"type": "basket", "category": "fille"}, "dialog_acts": [{"slots": [], "act": "reqalts"}]}
+{"speaker": 2, "text": "api_call type=\"basket\" category=\"fille\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "basket"], ["category", "fille"]]}], "db_result": {"type": "basket", "pricerange": "bon marché", "category": "fille", "heel": "plat", "name": "Basket 152-80", "sizes": "25/36", "colors": "blanche, grise, rose", "retail_price": "1750 DA", "wholesale_price": "1200 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Basket 152-80, c'est une chaussure basket pour fille.", "dialog_acts": [{"act": "inform_type+inform_category+offer_name", "slots": [["name", "Basket 152-80"], ["type", "basket"], ["category", "fille"]]}]}
+{"speaker": 1, "text": "pas de style converse ?", "goals": {"type": "basket", "category": "fille"}, "dialog_acts": [{"slots": [], "act": "reqalts"}]}
+{"speaker": 2, "text": "api_call type=\"basket\" category=\"fille\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "basket"], ["category", "fille"]]}], "db_result": {"type": "basket", "pricerange": "modéré", "category": "fille", "heel": "plat", "name": "Basket 152-85", "sizes": "25/36", "colors": "blanche, grise, rose", "retail_price": "2200 DA", "wholesale_price": "1400 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Basket 152-85, c'est une chaussure basket pour fille.", "dialog_acts": [{"act": "inform_type+inform_category+offer_name", "slots": [["name", "Basket 152-85"], ["type", "basket"], ["category", "fille"]]}]}
+{"speaker": 1, "text": "okay c combien déja ?", "goals": {"type": "basket", "category": "fille"}, "dialog_acts": [{"slots": [["slot", "retail_price"]], "act": "request"}]}
+{"speaker": 2, "text": "Bien sûr, le prix de Basket 152-85 est de 2200 DA", "dialog_acts": [{"act": "inform_retail_price+offer_name", "slots": [["name", "Basket 152-85"], ["retail_price", "2200 DA"]]}]}
+{"speaker": 1, "text": "um merci", "goals": {"type": "basket", "category": "fille"}, "dialog_acts": [{"slots": [], "act": "thankyou"}]}
+{"speaker": 2, "text": "Puis-je vous aider pour autre chose?", "dialog_acts": [{"act": "reqmore", "slots": []}]}
+{"speaker": 1, "text": "bye", "goals": {"type": "basket", "category": "fille"}, "dialog_acts": [{"slots": [], "act": "thankyou"}, {"slots": [], "act": "bye"}]}
+{"speaker": 2, "text": "Vous êtes les bienvenus!", "dialog_acts": [{"act": "bye", "slots": []}]}
+
+{"speaker": 2, "text": "Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?", "dialog_acts": [{"act": "welcomemsg", "slots": []}]}
+{"speaker": 1, "text": "es que vous avez des chaussures pour les mecs ?", "goals": {"category": "homme"}, "dialog_acts": [{"slots": [["category", "homme"]], "act": "inform"}]}
+{"speaker": 2, "text": "Je confirme, vous cherchez des chaussures pour homme ?", "dialog_acts": [{"act": "expl-conf_category", "slots": [["category", "homme"]]}]}
+{"speaker": 1, "text": "bah oui", "goals": {"category": "homme"}, "dialog_acts": [{"slots": [["type", "claquette"]], "act": "inform"}]}
+{"speaker": 2, "text": "Quel genre de chaussures avez-vous en tête ?", "dialog_acts": [{"act": "request_type", "slots": []}]}
+{"speaker": 1, "text": "je cherche des claquettes", "goals": {"type": "claquette", "category": "homme"}, "dialog_acts": [{"slots": [["type", "claquette"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call type=\"claquette\" category=\"homme\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "claquette"], ["category", "homme"]]}], "db_result": {}}
+{"speaker": 2, "text": "Je suis désolé, il n'y a pas de chaussure claquette pour homme pour le moment.", "dialog_acts": [{"act": "canthelp_type_category", "slots": [["type", "claquette"], ["category", "homme"]]}]}
+{"speaker": 1, "text": "dommage", "goals": {"type": "claquette", "category": "homme"}, "dialog_acts": [{"slots": [], "act": "regret"}]}
+{"speaker": 2, "text": "Puis-je vous aider pour autre chose?", "dialog_acts": [{"act": "reqmore", "slots": []}]}
+{"speaker": 1, "text": "non merci", "goals": {"type": "claquette", "category": "homme"}, "dialog_acts": [{"slots": [], "act": "negate"}, {"slots": [], "act": "thankyou"}]}
+{"speaker": 2, "text": "Vous êtes les bienvenus!", "dialog_acts": [{"act": "bye", "slots": []}]}
+
+{"speaker": 2, "text": "Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?", "dialog_acts": [{"act": "welcomemsg", "slots": []}]}
+{"speaker": 1, "text": "nhawes 3la des mocassin", "goals": {"type": "mocassin"}, "dialog_acts": [{"slots": [["type", "mocassin"]], "act": "inform"}]}
+{"speaker": 2, "text": "Pour hommes, garçons, femmes ou filles ?", "dialog_acts": [{"act": "request_category", "slots": []}]}
+{"speaker": 1, "text": "mon fils", "goals": {"type": "mocassin", "category": "garçon"}, "dialog_acts": [{"slots": [["pricerange", "garçon"]], "act": "inform"}]}
+{"speaker": 2, "text": "Je confirme, vous cherchez des chaussures pour garçon ?", "dialog_acts": [{"act": "expl-conf_category", "slots": [["category", "garçon"]]}]}
+{"speaker": 1, "text": "ih oui", "goals": {"type": "mocassin", "category": "garçon"}, "dialog_acts": [{"slots": [], "act": "affirm"}]}
+{"speaker": 2, "text": "api_call type=\"mocassin\" category=\"garçon\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "mocassin"], ["category", "garçon"]]}], "db_result": {"type": "mocassin", "pricerange": "bon marché", "category": "garçon", "heel": "plat", "name": "Mocassin 365-8", "sizes": "25/36", "colors": "noire, marron, bleue", "retail_price": "1500 DA", "wholesale_price": "1000 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Mocassin 365-8, c'est une chaussure mocassin pour garçon.", "dialog_acts": [{"act": "inform_type+inform_category+offer_name", "slots": [["name", "Mocassin 365-8"], ["type", "mocassin"], ["category", "garçon"]]}]}
+{"speaker": 1, "text": "prix + pointures svp", "goals": {"type": "mocassin", "category": "garçon"}, "dialog_acts": [{"slots": [["slot", "retail_price"]], "act": "request"}, {"slots": [["slot", "sizes"]], "act": "request"}]}
+{"speaker": 2, "text": "Mocassin 365-8 est 1500 DA et Les pointures disponibles sont dans la gamme de 25/36", "dialog_acts": [{"act": "inform_retail_price+inform_sizes+offer_name", "slots": [["name", "Mocassin 365-8"], ["retail_price", "1500 DA"], ["sizes", "25/36"]]}]}
+{"speaker": 1, "text": "c'est bien", "goals": {"type": "mocassin", "category": "garçon"}, "dialog_acts": []}
+{"speaker": 2, "text": "Puis-je vous aider pour autre chose?", "dialog_acts": [{"act": "reqmore", "slots": []}]}
+{"speaker": 1, "text": "c pas la peine merci", "goals": {"type": "mocassin", "category": "garçon"}, "dialog_acts": [{"slots": [], "act": "negate"}, {"slots": [], "act": "thankyou"}]}
+{"speaker": 2, "text": "Vous êtes les bienvenus!", "dialog_acts": [{"act": "bye", "slots": []}]}
+
+{"speaker": 2, "text": "Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?", "dialog_acts": [{"act": "welcomemsg", "slots": []}]}
+{"speaker": 1, "text": "je cherche des chaussures pour femmes a prix raisonable", "goals": {"pricerange": "modéré", "category": "femme"}, "dialog_acts": [{"slots": [["pricerange", "modéré"]], "act": "inform"}, {"slots": [["category", "femme"]], "act": "inform"}]}
+{"speaker": 2, "text": "Quel genre de chaussures avez-vous en tête ?", "dialog_acts": [{"act": "request_type", "slots": []}]}
+{"speaker": 1, "text": "je men fous", "goals": {"type": "dontcare", "pricerange": "modéré", "category": "femme"}, "dialog_acts": [{"slots": [["this", "dontcare"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call type=\"dontcare\" category=\"femme\" pricerange=\"modéré\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "dontcare"], ["pricerange", "modéré"], ["category", "femme"]]}], "db_result": {"type": "sabot", "pricerange": "modéré", "category": "femme", "heel": "demi", "name": "Sabot B40", "sizes": "36/41", "colors": "noire, beige, blanche", "retail_price": "2700 DA", "wholesale_price": "1800 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Sabot B40, une chaussure modéré pour femme.", "dialog_acts": [{"act": "inform_category+inform_pricerange+offer_name", "slots": [["name", "Sabot B40"], ["category", "femme"], ["pricerange", "modéré"]]}]}
+{"speaker": 1, "text": "autre ?", "goals": {"type": "dontcare", "pricerange": "modéré", "category": "femme"}, "dialog_acts": [{"slots": [], "act": "reqalts"}]}
+{"speaker": 2, "text": "api_call type=\"dontcare\" category=\"femme\" pricerange=\"modéré\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "dontcare"], ["pricerange", "modéré"], ["category", "garçon"]]}], "db_result": {"type": "sabot", "pricerange": "modéré", "category": "femme", "heel": "demi", "name": "Sabot X907-2", "sizes": "36/41", "colors": "noire, rose, blanche", "retail_price": "2600 DA", "wholesale_price": "1700 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Sabot X907-2, une chaussure modéré pour femme.", "dialog_acts": [{"act": "inform_category+inform_pricerange+offer_name", "slots": [["name", "Sabot X907-2"], ["category", "femme"], ["pricerange", "modéré"]]}]}
+{"speaker": 1, "text": "c combien svp", "goals": {"type": "dontcare", "pricerange": "modéré", "category": "femme"}, "dialog_acts": [{"slots": [["slot", "retail_price"]], "act": "request"}]}
+{"speaker": 2, "text": "Bien sûr, le prix de Sabot X907-2 est de 2600 DA", "dialog_acts": [{"act": "inform_retail_price+offer_name", "slots": [["name", "Sabot X907-2"], ["retail_price", "2600 DA"]]}]}
+{"speaker": 1, "text": "quels sont les couleurs disponibl", "goals": {"type": "dontcare", "pricerange": "modéré", "category": "femme"}, "dialog_acts": [{"slots": [["slot", "colors"]], "act": "request"}]}
+{"speaker": 2, "text": "Sabot X907-2 existe en noire, rose, blanche.", "dialog_acts": [{"act": "inform_colors+offer_name", "slots": [["name", "Sabot X907-2"], ["colors", "noire, rose, blanche"]]}]}
+{"speaker": 1, "text": "merci au revoir", "goals": {"type": "dontcare", "pricerange": "modéré", "category": "femme"}, "dialog_acts": [{"slots": [], "act": "thankyou"}, {"slots": [], "act": "bye"}]}
+{"speaker": 2, "text": "Vous êtes les bienvenus!", "dialog_acts": [{"act": "bye", "slots": []}]}
+
+{"speaker": 2, "text": "Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?", "dialog_acts": [{"act": "welcomemsg", "slots": []}]}
+{"speaker": 1, "text": "sava", "goals": {}, "dialog_acts": []}
+{"speaker": 2, "text": "Quel genre de chaussures avez-vous en tête ?", "dialog_acts": [{"act": "request_type", "slots": []}]}
+{"speaker": 1, "text": "je cherche ballerina soirée", "goals": {"type": "ballerine soirée"}, "dialog_acts": [{"slots": [["type", "ballerine soirée"]], "act": "inform"}]}
+{"speaker": 2, "text": "Vous cherchez chaussure ballerine soirée c'est ça ?", "dialog_acts": [{"act": "expl-conf_type", "slots": [["type", "ballerine soirée"]]}]}
+{"speaker": 1, "text": "oui", "goals": {"type": "ballerine soirée"}, "dialog_acts": [{"slots": [], "act": "affirm"}]}
+{"speaker": 2, "text": "Pour hommes, garçons, femmes ou filles ?", "dialog_acts": [{"act": "request_category", "slots": []}]}
+{"speaker": 1, "text": "pour les filles", "goals": {"type": "ballerine soirée", "category": "fille"}, "dialog_acts": [{"slots": [["category", "fille"]], "act": "inform"}]}
+{"speaker": 2, "text": "Souhaitez-vous quelque chose dans la gamme de prix bon marché, modéré ou chère ?", "dialog_acts": [{"act": "request_pricerange", "slots": []}]}
+{"speaker": 1, "text": "je me concerne pas", "goals": {"type": "ballerine soirée", "category": "fille", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [["this", "dontcare"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call type=\"ballerine soirée\" category=\"fille\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "ballerine soirée"], ["category", "fille"]]}], "db_result": {"type": "ballerine soirée", "pricerange": "modéré", "category": "fille", "heel": "plat", "name": "Soirée 300-46", "sizes": "25/36", "colors": "doré, argent, rose", "retail_price": "2600 DA", "wholesale_price": "1800 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Soirée 300-46, c'est une chaussure ballerine soirée pour fille.", "dialog_acts": [{"act": "inform_type+inform_category+offer_name", "slots": [["name", "Soirée 300-46"], ["type", "ballerine soirée"], ["category", "fille"]]}]}
+{"speaker": 1, "text": "ya til autres modeles ?", "goals": {"type": "ballerine soirée", "category": "fille", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [], "act": "reqalts"}]}
+{"speaker": 2, "text": "api_call type=\"ballerine soirée\" category=\"fille\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "ballerine soirée"], ["category", "fille"]]}], "db_result": {"type": "ballerine soirée", "pricerange": "modéré", "category": "fille", "heel": "plat", "name": "Soirée 300-46", "sizes": "25/36", "colors": "doré, argent, rose", "retail_price": "2600 DA", "wholesale_price": "1800 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Soirée 300-46, c'est une chaussure ballerine soirée pour fille.", "dialog_acts": [{"act": "inform_type+inform_category+offer_name", "slots": [["name", "Soirée 300-46"], ["type", "ballerine soirée"], ["category", "fille"]]}]}
+{"speaker": 1, "text": "ok quels sont les pointures disponible ?", "goals": {"type": "ballerine soirée", "category": "fille", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [["slot", "sizes"]], "act": "request"}]}
+{"speaker": 2, "text": "Les pointures disponibles pour Soirée 300-46 sont dans la gamme 25/36", "dialog_acts": [{"act": "inform_sizes+offer_name", "slots": [["name", "Soirée 300-46"], ["sizes", "25/36"]]}]}
+{"speaker": 1, "text": "et les couleurs ?", "goals": {"type": "ballerine soirée", "category": "fille", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [["slot", "colors"]], "act": "request"}]}
+{"speaker": 2, "text": "Soirée 300-46 existe en doré, argent, rose.", "dialog_acts": [{"act": "inform_colors+offer_name", "slots": [["name", "Soirée 300-46"], ["colors", "doré, argent, rose"]]}]}
+{"speaker": 1, "text": "merci chao", "goals": {"type": "ballerine soirée", "category": "fille", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [], "act": "thankyou"}, {"slots": [], "act": "bye"}]}
+{"speaker": 2, "text": "Vous êtes les bienvenus!", "dialog_acts": [{"act": "bye", "slots": []}]}
+
+{"speaker": 2, "text": "Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?", "dialog_acts": [{"act": "welcomemsg", "slots": []}]}
+{"speaker": 1, "text": "je cherche des chaussures homme, pour être précis je cherche des sandales", "goals": {"type": "sandale", "category": "homme"}, "dialog_acts": [{"slots": [["type", "sandale"]], "act": "inform"}, {"slots": [["category", "homme"]], "act": "inform"}]}
+{"speaker": 2, "text": "Souhaitez-vous quelque chose dans la gamme de prix bon marché, modéré ou chère ?", "dialog_acts": [{"act": "request_pricerange", "slots": []}]}
+{"speaker": 1, "text": "je men fous", "goals": {"type": "sandale", "category": "homme", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [["this", "dontcare"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call type=\"sandale\" category=\"homme\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "sandale"], ["category", "homme"], ["pricerange", "dontcare"]]}], "db_result": {"type": "sandale", "pricerange": "modéré", "category": "homme", "heel": "plat", "name": "Sandale HHS-20", "sizes": "39/44", "colors": "noire, grise, bleue", "retail_price": "3500 DA", "wholesale_price": "2400 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Sandale HHS-20, c'est une chaussure sandale pour homme.", "dialog_acts": [{"act": "inform_type+inform_category+offer_name", "slots": [["name", "Sandale HHS-20"], ["type", "sandale"], ["category", "homme"]]}]}
+{"speaker": 1, "text": "d'autres suggestions ?", "goals": {"type": "sandale", "category": "homme", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [], "act": "reqalts"}]}
+{"speaker": 2, "text": "api_call type=\"sandale\" category=\"homme\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "sandale"], ["category", "homme"]]}], "db_result": {"type": "sandale", "pricerange": "bon marché", "category": "homme", "heel": "demi", "name": "Homme FF-10", "sizes": "39/44", "colors": "noire, grise, marron", "retail_price": "2500 DA", "wholesale_price": "2000 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Homme FF-10, c'est une chaussure sandale pour homme.", "dialog_acts": [{"act": "inform_type+inform_category+offer_name", "slots": [["name", "Homme FF-10"], ["type", "sandale"], ["category", "homme"]]}]}
+{"speaker": 1, "text": "quelle est la gamme de prix ?", "goals": {"type": "sandale", "category": "homme", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [["slot", "pricerange"]], "act": "request"}]}
+{"speaker": 2, "text": "La gamme de prix de Homme FF-10 est bon marché et c'est 2500 DA.", "dialog_acts": [{"act": "inform_pricerange+offer_retail_price+offer_name", "slots": [["name", "Homme FF-10"], ["pricerange", "bon marché"], ["retai_price", "2500 DA"]]}]}
+{"speaker": 1, "text": "merci Je vous remercie", "goals": {"type": "sandale", "category": "homme", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [], "act": "thankyou"}]}
+{"speaker": 2, "text": "Vous êtes les bienvenus!", "dialog_acts": [{"act": "bye", "slots": []}]}
+
+{"speaker": 2, "text": "Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?", "dialog_acts": [{"act": "welcomemsg", "slots": []}]}
+{"speaker": 1, "text": ".", "goals": {}, "dialog_acts": []}
+{"speaker": 2, "text": "Vous cherchez des chaussures, n'est-ce pas ?", "dialog_acts": [{"act": "confirm-domain", "slots": []}]}
+{"speaker": 1, "text": "Huummm", "goals": {}, "dialog_acts": []}
+{"speaker": 2, "text": "Désolé, je suis un peu confus, s'il vous plaît dites-moi à nouveau ce que vous recherchez.", "dialog_acts": [{"act": "repeat", "slots": []}]}
+{"speaker": 1, "text": "jai rien dit !", "goals": {}, "dialog_acts": [{"slots": [], "act": "negate"}]}
+{"speaker": 2, "text": "Quel genre de chaussures avez-vous en tête ?", "dialog_acts": [{"act": "request_type", "slots": []}]}
+{"speaker": 1, "text": "des sandales", "goals": {"type": "sandale"}, "dialog_acts": [{"slots": [["type", "sandale"]], "act": "inform"}]}
+{"speaker": 2, "text": "Pour hommes, garçons, femmes ou filles ?", "dialog_acts": [{"act": "request_category", "slots": []}]}
+{"speaker": 1, "text": "pour les femmes", "goals": {"type": "sandale", "category": "femme"}, "dialog_acts": [{"slots": [["category", "femme"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call type=\"sandale\" category=\"femme\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "sandale"], ["category", "femme"], ["pricerange", "dontcare"], ["heel", "dontcare"]]}], "db_result": {"name": "Sandale 6742-16", "sizes": "36/41", "colors": "noire, beige, rose", "type": "sandale", "heel": "plat", "category": "femme", "pricerange": "modéré", "retail_price": "2700 DA", "wholesale_price": "1700 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Sandale 6742-16, c'est une chaussure sandale pour femme.", "dialog_acts": [{"act": "inform_type+inform_category+offer_name", "slots": [["name", "Sandale 6742-16"], ["type", "sandale"], ["category", "femme"]]}]}
+{"speaker": 1, "text": "j'aime pas son talon", "goals": {"type": "sandale", "category": "femme"}, "dialog_acts": [{"slots": [], "act": "negate"}]}
+{"speaker": 2, "text": "Puis-je vous aider pour autre chose?", "dialog_acts": [{"act": "reqmore", "slots": []}]}
+{"speaker": 1, "text": "je cherche des sandales avec demi talon", "goals": {"type": "sandale", "category": "femme", "heel": "demi"}, "dialog_acts": [{"slots": [["heel", "demi"]], "act": "inform"}]}
+{"speaker": 2, "text": "Je confirme, vous cherchez des modèles avec un talon demi ?", "dialog_acts": [{"act": "expl-conf_heel", "slots": [["heel", "demi"]]}]}
+{"speaker": 1, "text": "oui je confirme", "goals": {"type": "sandale", "category": "femme", "heel": "demi"}, "dialog_acts": [{"slots": [], "act": "affirm"}]}
+{"speaker": 2, "text": "api_call type=\"sandale\" category=\"femme\" pricerange=\"dontcare\" heel=\"demi\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "sandale"], ["category", "femme"], ["heel", "demi"]]}], "db_result": {"type": "sandale", "pricerange": "modéré", "category": "femme", "heel": "demi", "name": "Sandale B44", "sizes": "36/40", "colors": "noire, beige, rose", "retail_price": "2600 DA", "wholesale_price": "1750 DA"}}
+{"speaker": 2, "text": "Sandale B44 est une jolie chaussure sandale pour femme avec un talon demi.", "dialog_acts": [{"act": "inform_type+inform_category+inform_heel+offer_name", "slots": [["name", "Sandale B44"], ["type", "sandale"], ["category", "femme"], ["heel", "long"]]}]}
+{"speaker": 1, "text": "et le prix ? c'est cher ?", "goals": {"type": "sandale", "category": "femme", "heel": "demi"}, "dialog_acts": [{"slots": [["pricerange", "chère"]], "act": "confirm"}]}
+{"speaker": 2, "text": "La gamme de prix de Sandale B44 est modéré et c'est 2600 DA.", "dialog_acts": [{"act": "inform_pricerange+offer_retail_price+offer_name", "slots": [["name", "Sandale B44"], ["pricerange", "modéré"], ["retai_price", "2600 DA"]]}]}
+{"speaker": 1, "text": "ok..", "goals": {"type": "sandale", "category": "femme", "heel": "demi"}, "dialog_acts": []}
+{"speaker": 2, "text": "Peut-être que Sandale B44 peut vous intéresser", "dialog_acts": [{"act": "offer_name", "slots": [["name", "Sandale B44"]]}]}
+{"speaker": 1, "text": "c'est effectivement le cas", "goals": {"type": "sandale", "category": "femme", "heel": "demi"}, "dialog_acts": [{"slots": [], "act": "affirm"}]}
+{"speaker": 2, "text": "Puis-je vous aider pour autre chose?", "dialog_acts": [{"act": "reqmore", "slots": []}]}
+{"speaker": 1, "text": "donne mw toutes les pointures disponibles", "goals": {"type": "sandale", "category": "femme", "heel": "demi"}, "dialog_acts": [{"slots": [["slot", "sizes"]], "act": "request"}]}
+{"speaker": 2, "text": "Les pointures disponibles pour Sandale B44 sont dans la gamme 36/40", "dialog_acts": [{"act": "inform_sizes+offer_name", "slots": [["name", "Sandale B44"], ["sizes", "36/40"]]}]}
+{"speaker": 1, "text": "et couleurs", "goals": {"type": "sandale", "category": "femme", "heel": "demi"}, "dialog_acts": [{"slots": [["slot", "colors"]], "act": "request"}]}
+{"speaker": 2, "text": "Sandale B44 existe en noire, beige, rose.", "dialog_acts": [{"act": "inform_colors+offer_name", "slots": [["name", "Sandale B44"], ["colors", "noire, beige, rose"]]}]}
+{"speaker": 1, "text": "merci", "goals": {"type": "sandale", "category": "femme", "heel": "demi"}, "dialog_acts": [{"slots": [], "act": "thankyou"}]}
+{"speaker": 2, "text": "Puis-je vous aider pour autre chose?", "dialog_acts": [{"act": "reqmore", "slots": []}]}
+{"speaker": 1, "text": "non merci beaucoup", "goals": {"type": "sandale", "category": "femme", "heel": "demi"}, "dialog_acts": [{"slots": [], "act": "negate"}, {"slots": [], "act": "thankyou"}]}
+{"speaker": 2, "text": "Vous êtes les bienvenus!", "dialog_acts": [{"act": "bye", "slots": []}]}
+
+{"speaker": 2, "text": "Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?", "dialog_acts": [{"act": "welcomemsg", "slots": []}]}
+{"speaker": 1, "text": "je veux des chaussures pour mon garçon", "goals": {"category": "garçon"}, "dialog_acts": [{"slots": [["category", "garçon"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call type=\"dontcare\" category=\"garçon\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["category", "garçon"]]}], "db_result": {"type": "sandale", "pricerange": "modéré", "category": "garçon", "heel": "plat", "name": "Sandale A1912-10", "sizes": "25/36", "colors": "noire, blanche, bleue", "retail_price": "2400 DA", "wholesale_price": "1500 DA"}}
+{"speaker": 2, "text": "Sandale A1912-10 est une belle chaussure pour garçon", "dialog_acts": [{"act": "inform_category+offer_name", "slots": [["name", "Sandale A1912-10"], ["category", "garçon"]]}]}
+{"speaker": 1, "text": "et c'est combien ?", "goals": {"category": "garçon"}, "dialog_acts": [{"slots": [["slot", "retail_price"]], "act": "request"}]}
+{"speaker": 2, "text": "Bien sûr, le prix de Sandale A1912-10 est de 2400 DA", "dialog_acts": [{"act": "inform_retail_price+offer_name", "slots": [["name", "Sandale A1912-10"], ["retail_price", "2400 DA"]]}]}
+{"speaker": 1, "text": "et les pointures ?", "goals": {"category": "garçon"}, "dialog_acts": [{"slots": [["slot", "sizes"]], "act": "request"}]}
+{"speaker": 2, "text": "Les pointures disponibles pour Sandale A1912-10 sont dans la gamme 25/36", "dialog_acts": [{"act": "inform_sizes+offer_name", "slots": [["name", "Sandale A1912-10"], ["sizes", "25/36"]]}]}
+{"speaker": 1, "text": "merci a+", "goals": {"category": "garçon"}, "dialog_acts": [{"slots": [], "act": "thankyou"}, {"slots": [], "act": "bye"}]}
+{"speaker": 2, "text": "Vous êtes les bienvenus!", "dialog_acts": [{"act": "bye", "slots": []}]}
+
+{"speaker": 2, "text": "Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?", "dialog_acts": [{"act": "welcomemsg", "slots": []}]}
+{"speaker": 1, "text": "bonjour et bienvenue", "goals": {}, "dialog_acts": [{"slots": [], "act": "hello"}]}
+{"speaker": 2, "text": "Vous cherchez des chaussures, n'est-ce pas ?", "dialog_acts": [{"act": "confirm-domain", "slots": []}]}
+{"speaker": 1, "text": "tu as bien deviné", "goals": {}, "dialog_acts": [{"slots": [], "act": "affirm"}]}
+{"speaker": 2, "text": "Quel genre de chaussures avez-vous en tête ?", "dialog_acts": [{"act": "request_type", "slots": []}]}
+{"speaker": 1, "text": "comme ?", "goals": {}, "dialog_acts": []}
+{"speaker": 2, "text": "Désolé, voulez-vous sandale ou basket comme modèles de chaussures ?", "dialog_acts": [{"act": "select_type", "slots": [["type", "sandale"], ["type", "basket"]]}]}
+{"speaker": 1, "text": "des baskets pour les filles", "goals": {"type": "basket", "category": "fille"}, "dialog_acts": [{"slots": [["type", "basket"], ["category", "fille"]], "act": "inform"}]}
+{"speaker": 2, "text": "Je confirme, vous cherchez des chaussures pour fille ?", "dialog_acts": [{"act": "expl-conf_category", "slots": [["category", "fille"]]}]}
+{"speaker": 1, "text": "oui dsl", "goals": {"type": "basket", "category": "fille"}, "dialog_acts": [{"slots": [], "act": "affirm"}]}
+{"speaker": 2, "text": "Souhaitez-vous quelque chose dans la gamme de prix bon marché, modéré ou chère ?", "dialog_acts": [{"act": "request_pricerange", "slots": []}]}
+{"speaker": 1, "text": "modéré", "goals": {"type": "basket", "category": "fille", "pricerange": "modéré"}, "dialog_acts": [{"slots": [["pricerange", "modéré"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call type=\"basket\" category=\"fille\" pricerange=\"modéré\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "basket"], ["category", "fille"], ["pricerange", "modéré"]]}], "db_result": {"type": "basket", "pricerange": "modéré", "category": "fille", "heel": "plat", "name": "Basket 152-85", "sizes": "25/36", "colors": "blanche, grise, rose", "retail_price": "2200 DA", "wholesale_price": "1400 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Basket 152-85, c'est une chaussure basket pour fille dans la gamme de prix modéré.", "dialog_acts": [{"act": "inform_type+inform_category+inform_pricerange+offer_name", "slots": [["name", "Basket 152-85"], ["type", "basket"], ["category", "fille"], ["pricerange", "modéré"]]}]}
+{"speaker": 1, "text": "y a-t-il autre chose", "goals": {"type": "basket", "category": "fille", "pricerange": "modéré"}, "dialog_acts": [{"slots": [], "act": "reqalts"}]}
+{"speaker": 2, "text": "api_call type=\"basket\" category=\"fille\" pricerange=\"modéré\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "basket"], ["category", "fille"], ["pricerange", "modéré"]]}], "db_result": {"type": "basket", "pricerange": "modéré", "category": "fille", "heel": "plat", "name": "Basket TF822", "sizes": "20/37", "colors": "rose, grise, jaune", "retail_price": "2600 DA", "wholesale_price": "1500 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Basket TF822, c'est une chaussure basket pour fille dans la gamme de prix modéré.", "dialog_acts": [{"act": "inform_type+inform_category+inform_pricerange+offer_name", "slots": [["name", "Basket TF822"], ["type", "basket"], ["category", "fille"], ["pricerange", "modéré"]]}]}
+{"speaker": 1, "text": "je pourrais obtenir son", "goals": {"type": "basket", "category": "fille", "pricerange": "modéré"}, "dialog_acts": []}
+{"speaker": 2, "text": "Désolé, je suis un peu confus, s'il vous plaît dites-moi à nouveau ce que vous recherchez.", "dialog_acts": [{"act": "repeat", "slots": []}]}
+{"speaker": 1, "text": "son prix ?", "goals": {"type": "basket", "category": "fille", "pricerange": "modéré"}, "dialog_acts": [{"slots": [["slot", "retail_price"]], "act": "request"}]}
+{"speaker": 2, "text": "Bien sûr, le prix de Basket TF822 est de 2600 DA", "dialog_acts": [{"act": "inform_retail_price+offer_name", "slots": [["name", "Basket TF822"], ["retail_price", "2600 DA"]]}]}
+{"speaker": 1, "text": "je pourrais obtenir les tailles et les couleurs", "goals": {"type": "basket", "category": "fille", "pricerange": "modéré"}, "dialog_acts": [{"slots": [["slot", "sizes"]], "act": "request"}, {"slots": [["slot", "colors"]], "act": "request"}]}
+{"speaker": 2, "text": "Les pointures disponibles pour Basket TF822 sont dans la gamme 20/37 et elle existe en rose, grise, jaune.", "dialog_acts": [{"act": "inform_sizes+inform_colors+offer_name", "slots": [["name", "Basket TF822"], ["sizes", "20/37"], ["colors", "rose, grise, jaune"]]}]}
+{"speaker": 1, "text": "merci et bonne nuit", "goals": {"type": "basket", "category": "fille", "pricerange": "modéré"}, "dialog_acts": [{"slots": [], "act": "thankyou"}, {"slots": [], "act": "bye"}]}
+{"speaker": 2, "text": "Vous êtes les bienvenus!", "dialog_acts": [{"act": "bye", "slots": []}]}
+
+{"speaker": 2, "text": "Bienvenue chez H.S.Fashion! Comment puis-je vous aider ?", "dialog_acts": [{"act": "welcomemsg", "slots": []}]}
+{"speaker": 1, "text": "je cherche des chaussures classiques de nimporte quel prix", "goals": {"type": "classique", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [["type", "classique"]], "act": "inform"}, {"slots": [["pricerange", "dontcare"]], "act": "inform"}]}
+{"speaker": 2, "text": "Je confirme, Vous cherchez une chaussure et vous ne vous souciez pas de la gamme de prix, n'est-ce pas ?", "dialog_acts": [{"act": "expl-conf_pricerange", "slots": [["pricerange", "dontcare"]]}]}
+{"speaker": 1, "text": "c'est correct des chaussures classiques", "goals": {"type": "classique", "pricerange": "dontcare"}, "dialog_acts": [{"slots": [], "act": "affirm"}, {"slots": [["type", "classique"]], "act": "inform"}]}
+{"speaker": 2, "text": "Pour hommes, garçons, femmes ou filles ?", "dialog_acts": [{"act": "request_category", "slots": []}]}
+{"speaker": 1, "text": "pour les hommes bien sur", "goals": {"type": "classique", "pricerange": "dontcare", "category": "homme"}, "dialog_acts": [{"slots": [["category", "homme"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call type=\"classique\" category=\"homme\" pricerange=\"dontcare\" heel=\"dontcare\"", "dialog_acts": [{"act": "api_call", "slots": [["type", "classique"], ["category", "homme"], ["pricerange", "dontcare"]]}], "db_result": {"type": "classique", "pricerange": "bon marché", "category": "homme", "heel": "demi", "name": "Homme FF-2", "sizes": "39/44", "colors": "noire, marron, bleue", "retail_price": "2800 DA", "wholesale_price": "2000 DA"}}
+{"speaker": 2, "text": "Peut-être que vous aimez Homme FF-2, c'est une chaussure classique pour homme.", "dialog_acts": [{"act": "inform_type+inform_category+offer_name", "slots": [["name", "Homme FF-2"], ["type", "classique"], ["category", "homme"]]}]}
+{"speaker": 1, "text": "je peux avoir le prix svp", "goals": {"type": "classique", "pricerange": "dontcare", "category": "homme"}, "dialog_acts": [{"slots": [["slot", "retail_price"]], "act": "request"}]}
+{"speaker": 2, "text": "Bien sûr, le prix de Homme FF-2 est de 2800 DA", "dialog_acts": [{"act": "inform_retail_price+offer_name", "slots": [["name", "Homme FF-2"], ["retail_price", "2100 DA"]]}]}
+{"speaker": 1, "text": "merci prends soin", "goals": {"type": "classique", "pricerange": "dontcare", "category": "homme"}, "dialog_acts": [{"slots": [], "act": "thankyou"}, {"slots": [], "act": "bye"}]}
+{"speaker": 2, "text": "Vous êtes les bienvenus!", "dialog_acts": [{"act": "bye", "slots": []}]}

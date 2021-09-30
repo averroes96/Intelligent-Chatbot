@@ -1,0 +1,79 @@
+{
+      "dataset_reader": {
+            "class_name": "dstc2_reader",
+            "data_path": "{DATA_PATH}"
+      },
+      "dataset_iterator": {
+            "class_name": "dstc2_ner_iterator",
+            "slot_values_path": "{SLOT_VALS_PATH}"
+      },
+      "chainer": {
+            "in": [
+                  "x"
+            ],
+            "in_y": [
+                  "y"
+            ],
+            "pipe": [
+                  {
+                        "in": [
+                              "x"
+                        ],
+                        "class_name": "lazy_tokenizer",
+                        "out": [
+                              "x_tokens"
+                        ]
+                  },
+                  {
+                        "in": [
+                              "x_tokens"
+                        ],
+                        "config_path": "{NER_CONFIG_PATH}",
+                        "out": [
+                              "x_tokens",
+                              "tags"
+                        ]
+                  },
+                  {
+                        "in": [
+                              "x_tokens",
+                              "tags"
+                        ],
+                        "class_name": "dstc_slotfilling",
+                        "threshold": 0.8,
+                        "save_path": "{MODEL_PATH}/model",
+                        "load_path": "{MODEL_PATH}/model",
+                        "out": [
+                              "slots"
+                        ]
+                  }
+            ],
+            "out": [
+                  "slots"
+            ]
+      },
+      "train": {
+            "metrics": [
+                  "slots_accuracy"
+            ],
+            "class_name": "fit_trainer",
+            "evaluation_targets": [
+                  "valid",
+                  "test"
+            ]
+      },
+      "metadata": {
+            "variables": {
+                  "ROOT_PATH": "~/.deeppavlov",
+                  "NER_CONFIG_PATH": "../task_oriented/entity_extractor/ner/config.json",
+                  "DATA_PATH": "{ROOT_PATH}/downloads/dstc2",
+                  "SLOT_VALS_PATH": "../data/dstc2/dstc_slot_vals.json",
+                  "MODELS_PATH": "{ROOT_PATH}/models",
+                  "MODEL_PATH": "../task_oriented/entity_extractor/slot_filler/model/"
+            },
+            "requirements": [
+                  "{DEEPPAVLOV_PATH}/requirements/tf.txt",
+                  "{DEEPPAVLOV_PATH}/requirements/rapidfuzz.txt"
+            ]
+      }
+}

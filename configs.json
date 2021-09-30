@@ -1,0 +1,36 @@
+{
+    "BERT": {
+        "MODEL": "camember-base",
+        "SAVE_PATH": "./models/camembert/"
+    },
+
+    "FASTTEXT": {
+        "EMBEDDER": "cc.fr.300.bin",
+        "SAVE_PATH": "./data/embedder/"
+    },
+
+    "CLASSIFIER": {
+        "DATA_PATH": "./data/classifier_data.csv",
+        "TARGET_LIST": ["QA", "task", "chitchat"],
+        "CHECKPOINT_PATH": "./classifier/checkpoint",
+        "BEST_PATH": "./classifier/best_model.pt",
+        "MAX_LEN": 256,
+        "TRAIN_BATCH_SIZE": 32,
+        "EPOCHS": 10,
+        "LEARNING_RATE": 1e-05
+    },
+
+    "TASK_ORIENTED": {
+        "DATA_PATH": "./data/dstc2/"
+    },
+
+    "QA": {
+        "FAQ": {
+            "DATA_PATH": "./data/QA.csv"
+        } 
+    },
+
+    "OPEN_DOMAIN":{
+        "DATA_PATH": "./data/open_domain/chitchat_dataset.csv"
+    }
+}

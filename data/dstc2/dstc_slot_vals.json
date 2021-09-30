@@ -1,0 +1,311 @@
+{
+    "type": {
+        "sandale": [
+            "sandale",
+            "sandales",
+            "sandal",
+            "sandals",
+            "sandala"
+        ],
+        "ballerine": [
+            "ballerine",
+            "ballerines",
+            "ballerin",
+            "ballerins",
+            "ballerina",
+            "ballerina",
+            "balghina",
+            "balleghina",
+            "ballrine"
+        ],
+        "basket": [
+            "basket",
+            "baskets",
+            "addidas",
+            "adidas"
+        ],
+        "classique": [
+            "classique",
+            "classiques",
+            "classic",
+            "classics",
+            "classik",
+            "classiks"
+        ],
+        "converse": [
+            "converse",
+            "converses",
+            "konverse",
+            "convers"
+        ],
+        "mocassin": [
+            "mocassin",
+            "mocassins",
+            "moccasin",
+            "moccasins",
+            "mocasin",
+            "mocasins",
+            "mokassa",
+            "moccassin",
+            "moccassins"
+        ],
+        "sabot": [
+            "sabot",
+            "sabots",
+            "sabo",
+            "sabos",
+            "sabon"
+        ],
+        "skecher": [
+            "skecher",
+            "skechers",
+            "skeacher",
+            "skeachers",
+            "skicher",
+            "skichers"
+        ],
+        "soirée": [
+            "soirée",
+            "soirées",
+            "soiréé",
+            "sowari"
+        ],
+        "ballerine soirée": [
+            "ballerine soirée",
+            "ballerines soirée",
+            "ballerin soirée",
+            "balghina soirée",
+            "ballrine soirée"
+        ],
+        "sabot soirée": [
+            "sabot soirée",
+            "sabots soirée",
+            "sabo soirée",
+            "sabon soirée"
+        ],
+        "sandale soirée": [
+            "sandale soirée",
+            "sandales soirée",
+            "sandala soirée",
+            "sandal soirée",
+            "sandals soirée"
+        ],
+        "claquette": [
+            "claquette",
+            "claquettes",
+            "claquete",
+            "claquetes",
+            "claket"
+        ],
+        "pantoufle": [
+            "pantoufle",
+            "pantoufles",
+            "pantoufa"
+        ],
+        "boot": [
+            "boot",
+            "boots",
+            "botte",
+            "bottes",
+            "bot",
+            "bots",
+            "bott"
+        ],
+        "bottine": [
+            "bottine",
+            "bottines",
+            "botting",
+            "bottin",
+            "bottins",
+            "bootine",
+            "bootines"
+        ],
+        "new balance": [
+            "new balance",
+            "new balances",
+            "nyo balance"
+        ],
+        "dontcare": [
+            "n'importe quel type",
+            "peu importe",
+            "je m'en fous",
+            "n'importe quel",
+            "je men fous",
+            "je ne sais pas",
+            "toutes sortes",
+            "pas grave",
+            "je me fiche",
+            "tout",
+            "quelconque"
+        ]
+    },
+    "pricerange": {
+        "modéré": [
+            "modéré",
+            "modérer",
+            "modérés",
+            "raisonable",
+            "moyen",
+            "modérée"
+        ],
+        "chère": [
+            "chère",
+            "cher",
+            "coûteuse",
+            "à prix élevé"
+        ],
+        "bon marché": [
+            "bon marché",
+            "peu coûteux",
+            "pas cher",
+            "prix réduit",
+            "prix bas",
+            "rabais",
+            "moins cher"
+        ],
+        "dontcare": [
+            "n'importe quel prix",
+            "peu importe",
+            "peu import",
+            "je me concerne pas",
+            "je m'en fous",
+            "n'importe quel",
+            "je men fous",
+            "pas grave",
+            "je me fiche",
+            "toute",
+            "quelconque",
+            "jmef",
+            "doesnt matter",
+            "je ne m'en soucie plus",
+            "je ne men soucie plus",
+            "pas d'importance",
+            "pas important"
+        ]
+    },
+    "category": {
+        "femme": [
+            "femme",
+            "femmes",
+            "mère",
+            "mere",
+            "mères",
+            "dame",
+            "dames",
+            "maîtresse",
+            "demoiselle",
+            "demoiselles",
+            "meufs",
+            "meuf",
+            "famme",
+            "fammes",
+            "épouse",
+            "madame",
+            "madam",
+            "madames",
+            "mademoiselle",
+            "mademoiselles"
+        ],
+        "homme": [
+            "homme",
+            "hommes",
+            "mec",
+            "mecs",
+            "gars",
+            "père",
+            "pere",
+            "pères",
+            "peres",
+            "gens",
+            "mâle",
+            "rjal",
+            "rjale"
+        ],
+        "fille": [
+            "fille",
+            "filles",
+            "fillette",
+            "fillettes",
+            "fifille",
+            "soeur",
+            "soeurs",
+            "fillasse",
+            "bnat",
+            "bnate",
+            "tofla"
+        ],
+        "garçon": [
+            "garçon",
+            "garçons",
+            "garcon",
+            "garcons",
+            "fils",
+            "boy",
+            "wlad",
+            "frere",
+            "frère",
+            "frères",
+            "freres",
+            "drari"
+        ],
+        "dontcare": [
+            "peu importe",
+            "peu import",
+            "je me concerne pas",
+            "je m'en fous",
+            "n'importe quel",
+            "je men fous",
+            "pas grave",
+            "je me fiche",
+            "toute",
+            "quelconque",
+            "jmef",
+            "doesnt matter",
+            "je ne m'en soucie plus",
+            "je ne men soucie plus",
+            "pas d'importance",
+            "pas important"
+        ]
+    },
+    "this": {
+        "dontcare": [
+            "peu importe",
+            "peu import",
+            "je me concerne pas",
+            "je m'en fous",
+            "n'importe quel",
+            "je men fous",
+            "pas grave",
+            "je me fiche",
+            "toute",
+            "quelconque",
+            "jmef",
+            "doesnt matter",
+            "je ne m'en soucie plus",
+            "je ne men soucie plus",
+            "pas d'importance",
+            "pas important"
+        ]
+    },
+    "heel": {
+        "plat": [
+            "plat",
+            "plats",
+            "pla"
+        ],
+        "demi": [
+            "demi"
+        ],
+        "long": [
+            "long",
+            "longs",
+            "longue",
+            "longues",
+            "haut"
+        ],
+        "compensé": [
+            "compensé",
+            "compensés"
+        ]
+    }
+}
