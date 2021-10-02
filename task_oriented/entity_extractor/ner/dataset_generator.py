@@ -1,44 +1,41 @@
 from deeppavlov.dataset_readers.dstc2_reader import DSTC2DatasetReader
 import re
 
+types = ["mocassin","mocassins", "moccassin", "basket", "baskets", "classique", "classiques", "skecher", "skechers"]
+priceranges = ["modéré", "bon marché", "chère", "raisonable"]
+categories = ["femme", "femmes", "meufs", "homme", "hommes", "mecs", "fille", "filles", "fillette", "fillettes", "garçon", "garcon", "garçons", "fils"]
+heels = ["long", "demi", "plat", "compensé"]
 
-# valid_file = open("C:/Users/user/Documents/GitHub/Intelligent-Chatbot/dstc2_v3/dstc2-val.jsonlist", "rt")
+def conll_format(reference, target):
 
-# valid_list = valid_file.read().split("\n")
+    data = DSTC2DatasetReader()._read_from_file(reference)
 
-# print(len(valid_list[0]))
+    ner_valid_file = open(target, "w", encoding="utf-8")
 
-# new_file = open("dstc2-val.jsonlist", "w")
+    for dialog in data:
+        text = dialog[0]["text"]
+        speaker = dialog[1]["text"]
 
-# for line in valid_list:
-#     new_file.write(f"{line}\n")
+        if text.strip() != "":
+            for token in text.split(" "):
+                if token in types:
+                    ner_valid_file.write(f"{token}	B-type\n")
+                elif token in priceranges:
+                    ner_valid_file.write(f"{token}	B-pricerange\n")
+                elif token in categories:
+                    ner_valid_file.write(f"{token}	B-category\n")
+                elif token in heels:
+                    ner_valid_file.write(f"{token}	B-heel\n")
+                else:
+                    ner_valid_file.write(f"{token}	O\n")
 
-# new_file.close()
+            ner_valid_file.write("\n")
 
-data = DSTC2DatasetReader()._read_from_file("./dataset/dstc2-trn.jsonlist")
+            if not speaker.startswith("api_call"):
+                ner_valid_file.write(f"{speaker}\n")
 
-# ner_valid_file = open("ner_valid.txt", "w", encoding="utf-8")
+    ner_valid_file.close()
 
-# for dialog in data:
-#     text = dialog[0]["text"]
-#     speaker = dialog[1]["text"]
-
-#     if text.strip() != "":
-#         for token in text.split(" "):
-#             if token in ["mocassin","mocassins", "moccassin", "basket", "baskets", "classique", "classiques", "skecher", "skechers"]:
-#                 ner_valid_file.write(f"{token}	B-type\n")
-#             elif token in ["modéré", "bon marché", "chère", "raisonable"]:
-#                 ner_valid_file.write(f"{token}	B-pricerange\n")
-#             elif token in ["femme", "femmes", "meufs", "homme", "hommes", "mecs", "fille", "filles", "fillette", "fillettes", "garçon", "garcon", "garçons", "fils"]:
-#                 ner_valid_file.write(f"{token}	B-category\n")
-#             elif token in ["long", "demi", "plat", "compensé"]:
-#                 ner_valid_file.write(f"{token}	B-heel\n")
-#             else:
-#                 ner_valid_file.write(f"{token}	O\n")
-
-#         ner_valid_file.write("\n")
-
-#         if not speaker.startswith("api_call"):
-#             ner_valid_file.write(f"{speaker}\n")
-
-# ner_valid_file.close()
+conll_format("../../../data/dstc2/dstc2-trn.jsonlist", "../../../data/dstc2/train.txt")
+conll_format("../../../data/dstc2/dstc2-tst.jsonlist", "../../../data/dstc2/test.txt")
+conll_format("../../../data/dstc2/dstc2-val.jsonlist", "../../../data/dstc2/valid.txt")
